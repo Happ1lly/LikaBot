@@ -1,0 +1,4 @@
+pyTelegramBotAPI
+pytube
+moviepy
+ffmpeg-python
