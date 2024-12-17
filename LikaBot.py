@@ -1,10 +1,9 @@
+import os
 import telebot
 from pytube import YouTube
 from moviepy.editor import AudioFileClip
-import os
 
-# Replace this with your own token
-TOKEN = '7273102481:AAE2plF4uUeBXULbJ_6BPXxenYF8NMLx8Ho'
+TOKEN = os.getenv('TOKEN')
 bot = telebot.TeleBot(TOKEN)
 
 
